@@ -493,7 +493,7 @@ abstract class Enum implements EnumContract, Castable, Arrayable, JsonSerializab
      *
      * @return string|\Illuminate\Contracts\Database\Eloquent\CastsAttributes|\Illuminate\Contracts\Database\Eloquent\CastsInboundAttributes
      */
-    public static function castUsing(): CastsAttributes
+    public static function castUsing(array $arguments): CastsAttributes
     {
         return new EnumCast(static::class);
     }
