@@ -19,18 +19,18 @@
         }
     ],
     "require": {
-        "php": "^7.2.5",
+        "php": "^7.3",
         "hanneskod/classtools": "~1.0",
-        "illuminate/support": "^7.5",
-        "illuminate/contracts": "^7.5",
+        "illuminate/support": "^7.50|^8.0",
+        "illuminate/contracts": "^7.50|^8.0",
         "laminas/laminas-code": "^3.4"
     },
     "require-dev": {
         "doctrine/dbal": "^2.9",
-        "laravel/framework": "^7.5",
-        "orchestra/testbench": "^5.0",
+        "laravel/framework": "^7.5|^8.0",
+        "orchestra/testbench": "^5.0|^6.0",
         "phpstan/phpstan": "^0.12.9",
-        "phpunit/phpunit": "^8.5",
+        "phpunit/phpunit": "^8.5|^9.0",
         "squizlabs/php_codesniffer": "^3.0"
     },
     "autoload": {
